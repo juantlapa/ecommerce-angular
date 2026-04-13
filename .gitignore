@@ -1,0 +1,33 @@
+# Node modules
+**/node_modules/
+
+# Build outputs
+**/dist/
+**/build/
+
+# Angular
+**/.angular/
+**/coverage/
+
+# Environment files
+**/.env
+**/.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Ignore .env files which may contain sensitive information
+.env
+.env.prod
+.env.test
